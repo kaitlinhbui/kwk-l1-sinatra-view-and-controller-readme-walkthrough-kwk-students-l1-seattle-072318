@@ -10,7 +10,11 @@ class App < Sinatra::Base
   end
 
   get '/friends' do
-    # Write your code here!
+      class App
+    get '/' do
+      "Hello World"
+    end
+  end
 
   end
 end
