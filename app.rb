@@ -10,11 +10,6 @@ class App < Sinatra::Base
   end
 
   get '/friends' do
-      class App
-    get '/' do
-      "Hello World"
-    end
-  end
-
+    
   end
 end
